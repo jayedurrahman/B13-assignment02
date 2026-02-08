@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+<body class="inter-font">
+    <header class="header-background">
+        <nav class="navbar dispay-flex">
+        <div>
+            <h1 class="nav-h1"><span class="text-white">Tech</span><span class="h1-wave">Wave</span></h1>
+        </div>
+        <div class="dispay-flex nav-menu">
+            <p>About</p>
+            <p>Episodes</p>
+            <p>Host</p>
+
+        </div>
+        <div class="btn-nav">
+            <button>Subscribe</button>
+            <div>
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+        <img class="hambur-menu" src="./assets/hamburger-menu.png" alt="">
+    </nav>
+    </header>
+    <main>
+        <section>
+
+        </section>
+        <section class="header-background">
+            <div class="about-podcast">
+                <h1 class="about-podcast-h1">About the Podcast</h1>
+                <p class="text-white text-base font-normal ">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
+                We break down complex topics into digestible insights, explore productivity strategies that actually work,
+                and share stories of personal growth from industry leaders.</p>
+                <p class="text-base font-normal text-white">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+            <div class="podcast-hr">
+                <hr>
+            </div>
+        </section>
+        <section class="header-background">
+            <div class="podcast-card">
+                <div class="podcast-rating">
+                   <h1 class="podcast-rating-h1">150k+</h1> 
+                   <p class="podcast-rating-p">Monthly Listeners</p>
+                </div>
+                <div class="podcast-rating">
+                   <h1 class="podcast-rating-h1">200+</h1> 
+                   <p class="podcast-rating-p">Episodes Published</p>
+                </div>
+                <div class="podcast-rating">
+                   <h1 class="podcast-rating-h1">4.9 <span><i class="fa-regular fa-star"></i></span></h1> 
+                   <p class="podcast-rating-p">Average Rating</p>
+                </div>
+                <div class="podcast-rating">
+                   <h1 class="podcast-rating-h1">50+</h1> 
+                   <p class="podcast-rating-p">Industry Experts</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+   
 </body>
 </html>
