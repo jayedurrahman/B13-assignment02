@@ -54,6 +54,8 @@ font-weight: bolder;
 display: none;    
 }
 
+/* about podcast */
+
 .about-podcast{
     max-width: 1200px;
     margin: 0 auto;
@@ -92,6 +94,58 @@ display: none;
     font-weight: 400;
 }
 
+/* ........ */
+
+
+.featured-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.featured-content{
+    max-width: 380px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #250D44;
+    border-radius: 20px;
+    padding: 16px;
+    
+}
+.featured-h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.featured-content>h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.featured-image{
+    gap: 6px;
+    color: #00FF88;
+}
+.host-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 24px;
+    background-color: #351165;
+    padding: 40px;
+    border-radius: 40px;
+}
+.host-content>h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.host-content>p{
+    color: #FFFFFF;
+    font-weight: 200;
+}
 
 
 
@@ -99,6 +153,7 @@ display: none;
 
 /* Responsive design */
 @media screen and (max-width:576px) {
+    /* nav */
     .btn-nav{
         display: none;
     }
@@ -109,6 +164,11 @@ display: none;
     display: inline-block;
     padding-right: 18px;
    }
+   .podcast-hr{
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
 
 .about-podcast{
     
@@ -125,6 +185,34 @@ display: none;
     padding-bottom: 120px;
     
 }
-
+.featured-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    padding-top: none;
+    gap: 10px;
+}
+.featured-h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.host-section{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.host-img{
+    display: flex;
+   justify-content: center;
+}
+.host-logo{
+    display: flex;
+    justify-content: center;
+}
 }
 
