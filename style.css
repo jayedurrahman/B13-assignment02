@@ -80,6 +80,7 @@ display: none;
     gap: 10px;
     justify-content: center;
    margin: 0 auto;
+   padding-bottom: 100px;
 }
 .subscribe-btn{
     display: flex;
